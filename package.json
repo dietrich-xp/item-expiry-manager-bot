@@ -2,7 +2,7 @@
   "name": "item-expiry-manager-bot",
   "version": "1.0.0",
   "description": "Manage your items (foods, cosmetics, etc.) healthiness and get early notification on expiring items.",
-  "main": "app.js",
+  "main": "src/bot.js",
   "scripts": {
     "start": "NODE_ENV=production node .",
     "dev": "node .",
