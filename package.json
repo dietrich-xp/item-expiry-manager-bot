@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/dietrich-xp/item-expiry-manager-bot#readme",
   "dependencies": {
+    "config": "^3.3.1",
     "dotenv": "^8.2.0",
     "telegraf": "^3.38.0"
   }
