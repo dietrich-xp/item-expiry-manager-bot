@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dietrich-xp/item-expiry-manager-bot/issues"
   },
-  "homepage": "https://github.com/dietrich-xp/item-expiry-manager-bot#readme"
+  "homepage": "https://github.com/dietrich-xp/item-expiry-manager-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  }
 }
