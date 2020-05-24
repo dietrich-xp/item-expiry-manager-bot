@@ -1,0 +1,34 @@
+{
+  "name": "item-expiry-manager-bot",
+  "version": "1.0.0",
+  "description": "Manage your items (foods, cosmetics, etc.) healthiness and get early notification on expiring items.",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node .",
+    "dev": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dietrich-xp/item-expiry-manager-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "item",
+    "expiry",
+    "tool"
+  ],
+  "author": "Dietrich XP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dietrich-xp/item-expiry-manager-bot/issues"
+  },
+  "homepage": "https://github.com/dietrich-xp/item-expiry-manager-bot#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  }
+}
