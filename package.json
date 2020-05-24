@@ -4,6 +4,8 @@
   "description": "Manage your items (foods, cosmetics, etc.) healthiness and get early notification on expiring items.",
   "main": "app.js",
   "scripts": {
+    "start": "export NODE_ENV=production && node .",
+    "dev": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
